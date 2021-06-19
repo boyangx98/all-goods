@@ -1,11 +1,19 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
+import ShopPage from './pages/shoppage/shoppage.component'
+
+
 function App() {
   return (
     <div>
-      <HomePage />
+      {/* use switch to render the matching page only */}
+      <Switch>
+        <Route exact path='/' component={HomePage} />
+        <Route path='/shop' component={ShopPage} />
+      </Switch>
     </div>
   );
 }
