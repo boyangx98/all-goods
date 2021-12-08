@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const CheckoutPageContainer = styled.div`
   width: 55%;
@@ -46,7 +46,7 @@ export const HeaderBlockContainer = styled.div`
 export const TotalContainer = styled.div`
   margin-top: 30px;
   margin-left: auto;
-  font-size: 36px;
+  font-size: 28px;
 `;
 
 export const WarningContainer = styled.div`
